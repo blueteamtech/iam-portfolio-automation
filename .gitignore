@@ -1,0 +1,82 @@
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+.terraform.lock.hcl
+
+# Azure CLI
+.azure/
+
+# PowerShell
+*.ps1xml
+$RECYCLE.BIN/
+
+# Ansible
+*.retry
+.ansible/
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node modules (if any)
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Certificates and Keys
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Sensitive Data
+secrets/
+credentials/
+*.secret
+
+# Temporary files
+tmp/
+temp/
+*.tmp 
